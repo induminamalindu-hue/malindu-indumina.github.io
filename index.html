@@ -31,7 +31,7 @@
         .profile-img { width: 320px; height: 320px; border-radius: 50%; object-fit: cover; border: 5px solid #38bdf8; box-shadow: 0 0 30px rgba(56, 189, 248, 0.4); transition: 0.5s; }
         .profile-img:hover { transform: scale(1.05); box-shadow: 0 0 40px rgba(56, 189, 248, 0.7); }
 
-        /* Project Portfolio Grid (5 Images) */
+        /* Project Portfolio Grid (4 Images) */
         .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
         .project-card { background: rgba(30, 41, 59, 0.7); border: 1px solid rgba(255,255,255,0.05); border-radius: 15px; overflow: hidden; transition: 0.4s; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
         .project-card:hover { transform: translateY(-10px); border-color: #38bdf8; box-shadow: 0 15px 30px rgba(56,189,248,0.2); }
@@ -81,23 +81,22 @@
                     <p>I am a passionate developer specializing in building clean desktop and web application frameworks. Experienced in Object-Oriented Programming (OOP), automation systems, and high-precision data operations. Welcome to my personal workspace.</p>
                 </div>
                 <div class="hero-img-container">
-                    <!-- ⚠️ Replace 'my-profile.jpg' with your actual photo file name -->
                     <img src="my-profile.jpg" alt="Malindu Indumina" class="profile-img">
                 </div>
             </div>
         </section>
 
-        <!-- MY WORK SECTION (5 Images Portfolio Grid) -->
+        <!-- MY WORK SECTION (4 Projects Only) -->
         <section id="work">
             <h2>My Work</h2>
             <div class="portfolio-grid">
                 
                 <!-- Project 1 -->
                 <div class="project-card">
-                    <img src="project1.jpg" alt="The Sweet Cupcake Shop" class="project-img">
+                    <img src="project1.jpg" alt="GlobeTrek Adventures" class="project-img">
                     <div class="project-info">
-                        <h3>🧁 The Sweet Cupcake Shop</h3>
-                        <p>Java Swing GUI transaction and inventory system built via NetBeans. Features role dashboards for seamless management.</p>
+                        <h3>🌍 GlobeTrek Adventures</h3>
+                        <p>A modern travel curation framework designed with interactive front-end maps and backend logic layouts.</p>
                     </div>
                 </div>
 
@@ -112,25 +111,16 @@
 
                 <!-- Project 3 -->
                 <div class="project-card">
-                    <img src="project3.jpg" alt="GlobeTrek Adventures" class="project-img">
+                    <img src="project3.jpg" alt="printXpress" class="project-img">
                     <div class="project-info">
-                        <h3>🌍 GlobeTrek Adventures</h3>
-                        <p>A modern travel curation framework designed with interactive front-end maps and backend logic layouts.</p>
+                        <h3>🖨️ printXpress</h3>
+                        <p>A specialized transaction and workflow management system optimized for rapid processing and data tracking.</p>
                     </div>
                 </div>
 
                 <!-- Project 4 -->
                 <div class="project-card">
-                    <img src="project4.jpg" alt="Data Analytics & Input Automation" class="project-img">
-                    <div class="project-info">
-                        <h3>📊 Advanced Data Architecture</h3>
-                        <p>Dedicated processing interfaces built for high-speed indexing, client entries, and database mapping workflows.</p>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <img src="project5.jpg" alt="System Designs & Blueprints" class="project-img">
+                    <img src="project4.jpg" alt="Logic Layouts & Diagrams" class="project-img">
                     <div class="project-info">
                         <h3>⚙️ Logic Layouts & Diagrams</h3>
                         <p>Professional design structures consisting of complete system Use Case, Sequence, and architectural flow maps.</p>
@@ -144,8 +134,7 @@
         <section id="contact">
             <h2>Contact Me</h2>
             <div class="contact-form-container">
-                <!-- Uses free Formspree backend so messages go straight to your email -->
-                <form action="https://formspree.io/f/mwvjavrq" method="POST">
+                <form action="https://formspree.io/f/YOUR_ENDPOINT_HERE" method="POST">
                     <div class="form-group">
                         <label for="name">Your Name</label>
                         <input type="text" id="name" name="name" placeholder="Enter your name" required>
